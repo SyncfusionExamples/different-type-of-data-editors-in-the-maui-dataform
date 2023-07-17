@@ -1,4 +1,4 @@
-# Getting Started with the .NET MAUI ListView 
+# Different Types of Data Editors in .NET MAUI DataForm
 A quick-start MAUI project that contains code to change the default text editor to Autocomplete and ComboBox editors. This project also contains code to create custom data editors using data form items.
 
 Refer to the editor documentation for the Syncfusion .NET MAUI DataForm control: https://help.syncfusion.com/maui/dataform/editors 
