@@ -14,7 +14,7 @@
         <sf:SfDataForm.Items>
             <sf:DataFormTextItem FieldName="FirstName" />
             <sf:DataFormTextItem FieldName="LastName" />
-            <sf:DataFormMultilineItem FieldName="Adress" />
+            <sf:DataFormMultilineItem FieldName="Address" />
             <sf:DataFormComboBoxItem FieldName="Country" />
             <sf:DataFormDateItem FieldName="DateJoined" />
             <sf:DataFormCheckBoxItem FieldName="Confirmed" />
