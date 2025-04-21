@@ -9,7 +9,9 @@
         <local:ViewModel/>
     </ContentPage.BindingContext>
 
-    <sf:SfDataForm x:Name="dataForm" DataObject="{Binding Employee}"
+    <sf:SfDataForm x:Name="dataForm"
+                   x:DataType="local:ViewModel"
+                   DataObject="{Binding Employee}"
                    LayoutType="TextInputLayout" AutoGenerateItems="False">
         <sf:SfDataForm.Items>
             <sf:DataFormTextItem FieldName="FirstName" />
