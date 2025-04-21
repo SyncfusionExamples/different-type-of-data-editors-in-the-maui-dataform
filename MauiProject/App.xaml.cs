@@ -6,6 +6,9 @@ public partial class App : Application
 	{
 		InitializeComponent();
 		Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("NjA0NzI4QDMyMzAyZTMxMmUzMElnd0owNjFveXpldXBBVW9aQ3BkR2VGQUZRK2doVFZPak92T2VzNm5MR1k9");
-		MainPage = new AppShell();
 	}
+    protected override Window CreateWindow(IActivationState? activationState)
+    {
+        return new Window(new MainPage());
+    }
 }
